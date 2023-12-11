@@ -1,0 +1,55 @@
+.navbar {
+    background-color: gray;
+    font-size: 25px;
+    text-align: center;
+}
+
+.box1 {
+    border: solid black 2px;
+    height: 250px;
+    width: 550px;
+    margin: 50px;
+}
+
+.text-right {
+    text-align: right;
+    margin-top: 100px;
+    padding-left: 100px;
+}
+
+.box2 {
+    border: solid black 2px;
+    height: 250px;
+    width: 550px;
+    margin: 50px;
+
+}
+
+.box3 {
+    border: solid black 2px;
+    text-align: center;
+    
+}
+.container-left, .container-right {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50%; /* Adjust the width as needed */
+}
+.container-left {
+    z-index: 2; /* This div will be on top */
+}
+
+.container-right {
+    left: 100%;
+    z-index: 1;
+    margin-top: 100px;
+}
+.box3 button {
+    width: 200px;
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
